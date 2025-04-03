@@ -1,0 +1,18 @@
+## Base URL for the site
+baseURL = 'https://foxihd.github.io/hugo-brewm/'
+## Site title
+title = 'Example'
+## Use hugo-brewm theme
+theme = 'hugo-brewm'
+## Enable Git information for pages, (e.g. lastMod date information)
+enableGitInfo = true
+## Convert all URLs to absolute URLs
+canonifyURLs = true
+## Default language for content
+defaultContentLanguage = 'en'
+## Put default language in subdirectory
+defaultContentLanguageInSubdir = true
+## Show placeholder for missing translations
+enableMissingTranslationPlaceholders = true
+## Use sections for main menu
+# sectionPagesMenu = 'main'

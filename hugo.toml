@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Zheng Yi Hu'
+theme = "hugo-brewm"
+[params.logo]
+       logoType = true
+
+## Typography settings
+[params.typeface]
+    ## Use web safe fonts (will overide font selection below)
+    webSafe = false
+    ## Serif font selection
+    roman = 'crimson'
+    ## Sans-serif font selection
+    sans = 'inter'
+    ## use typeface stored in local server (pleaase download font's uri first)
+    localHost = false
