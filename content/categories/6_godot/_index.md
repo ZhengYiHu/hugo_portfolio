@@ -1,4 +1,4 @@
 ---
 title: 'Godot'
-cover: 'medias/Godot.png'
+cover: '/medias/Godot.png'
 ---

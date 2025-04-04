@@ -1,4 +1,4 @@
 ---
 title: 'Unreal'
-cover: 'medias/Unreal.png'
+cover: '/medias/Unreal.png'
 ---

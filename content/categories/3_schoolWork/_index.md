@@ -1,4 +1,4 @@
 ---
 title: 'SchoolWork'
-cover: 'medias/lillapad.jpg'
+cover: '/medias/lillapad.jpg'
 ---

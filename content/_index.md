@@ -1,5 +1,5 @@
 ---
-cover: 'medias/kirby.png'
+cover: '/medias/kirby.png'
 title: 'About Me'
 ---
 
