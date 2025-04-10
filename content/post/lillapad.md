@@ -4,7 +4,7 @@ description: "A puzzle platformer"
 draft: false
 type: "post"
 tags: ["Unreal","SmallTeam"]
-categories: ["1_ProfessionalWork","5_Unreal"]
+categories: ["2_personalProjects"]
 cover: '/medias/lillapad.jpg'
 ---
 

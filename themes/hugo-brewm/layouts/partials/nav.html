@@ -93,6 +93,18 @@
 
 {{- define "partials/nav/menu.html" -}}
     {{ "<!-- menu.html -->" | safeHTML }}
+    <menu role="presentation">
+       
+        {{- if and (eq .Kind "term" ) (eq .Data.Plural "series") -}}
+            {{- with .OutputFormats.Get "rss" }}
+                <li>
+                    <a id="rss-button" href="{{ .Permalink }}" title="{{ i18n "followRSS" }}" role="button" aria-label="{{ i18n "followRSS" }}">
+                        <span class="t" role="tooltip">{{ i18n "followRSS" }}</span>
+                    </a>
+                </li>
+            {{- end }}
+        {{- end }}
+    </menu>
     <button id="back" class="hide" type="button" onclick="history.back();" aria-label="{{ i18n "back" }}">
         <span class="t" role="tooltip">{{ i18n "back" }}</span>
     </button>

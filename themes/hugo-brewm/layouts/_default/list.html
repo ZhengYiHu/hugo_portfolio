@@ -99,7 +99,7 @@
                     <strong>
                         {{- if .IsHome }}
                             {{- if $firstPage }}
-                                {{ i18n "recent" $paginator.NumberOfElements }}
+                                {{ i18n "games" $paginator.NumberOfElements }}
                             {{- else }}
                                 {{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }}
                                 {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
@@ -121,9 +121,6 @@
                         {{- end }}
                     </strong>
                 </header>
-                {{- /*
-
-                    list post */}}
                 {{- $liViewCondition := or (and $active (not .IsHome)) (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
                 {{- if $liViewCondition }}
                     {{ template "li" . }}

@@ -232,3 +232,5 @@
     other = "Top"
 [tritanopia]
     other = "Tritanopia"
+[games]
+    other = "Games"
