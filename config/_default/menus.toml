@@ -1,0 +1,49 @@
+[[main]]
+  name       = 'Games'
+  identifier = 'games'
+  pageRef    = '/post/'
+  weight     = 1
+
+  [[main]]
+    name       = 'Unity'
+    identifier = 'unity'
+    pageRef    = '/tags/unity'
+    parent     = 'games'
+    Post       = 'Games made with Unity'
+    weight     = 1
+
+  [[main]]
+    name       = 'Unreal'
+    identifier = 'unreal'
+    pageRef    = '/tags/unreal'
+    parent     = 'games'
+    Post       = 'Games made with Unreal'
+    weight     = 2
+  
+  [[main]]
+    name       = 'Godot'
+    identifier = 'godot'
+    pageRef    = '/tags/godot'
+    parent     = 'games'
+    Post       = 'Games made with Godot'
+    weight     = 3
+
+  [[main]]
+    name       = 'Game Jams'
+    identifier = 'jams'
+    pageRef    = '/gamejams/'
+    parent     = 'games'
+    Post       = 'Games submitted in game jams'
+    weight     = 4
+
+[[main]]
+  name       = 'Resume'
+  identifier = 'resume'
+  weight     = 2
+  url        = '/resume'
+
+[[main]]
+  name       = 'Contact'
+  identifier = 'contact'
+  pageRef    = '/contact'
+  weight     = 3
