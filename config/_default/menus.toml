@@ -1,4 +1,10 @@
 [[main]]
+  name       = 'About Me'
+  identifier = 'aboutme'
+  pageRef    = '/aboutme'
+  weight     = 1
+
+[[main]]
   name       = 'Games'
   identifier = 'games'
   pageRef    = '/post/'
