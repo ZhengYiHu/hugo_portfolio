@@ -162,7 +162,7 @@ header time {
 }
 
 #content p img {
-    width: calc(100% - var(--indent));
+    width: calc(60% - var(--indent));
 }
 
 /* article backmatter */

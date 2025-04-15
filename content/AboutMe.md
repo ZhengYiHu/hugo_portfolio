@@ -3,7 +3,16 @@ type: 'slide'
 title: 'About Me'
 weight: 1
 ---
-![alt text](/medias/kirby.png "Me")
+{{< figure 
+src="/medias/earthcake.gif" 
+alt="A photograph of Zion National Park"
+width= 2
+height= 2
+caption="Zion National ad"
+class="ma0 w-75"
+>}}
+
+
 ## Zheng Yi Hu
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

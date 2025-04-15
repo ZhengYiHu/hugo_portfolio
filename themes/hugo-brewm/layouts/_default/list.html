@@ -71,12 +71,14 @@
                 <a class="underline" href="{{ "/tags/" | relLangURL }}">{{- i18n "seeMore" }}</a>
             </aside>
         {{- else if or (eq .Data.Singular "tag") .IsSection }}
-            <aside id="list-tags">
-                <header class="section-title">
-                    <strong>{{ i18n "tags" }}</strong>
-                </header>
-                {{ partial "taxonomies.html" (dict "taxonomy" "tags" "class" "rounded has-hash") }}
-            </aside>
+            {{- if not (eq .Title "Games") }}
+                <aside id="list-tags">
+                    <header class="section-title">
+                        <strong>{{ i18n "tags" }}</strong>
+                    </header>
+                    {{ partial "taxonomies.html" (dict "taxonomy" "tags" "class" "rounded has-hash") }}
+                </aside>
+            {{- end }}
         {{- end }}
     {{- end }}
     {{/*

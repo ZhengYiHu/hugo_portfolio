@@ -4,6 +4,8 @@ title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
 [params.logo]
        logoType = true
+[security]
+  enableInlineShortcodes = true
 
 ## Typography settings
 [params.typeface]
