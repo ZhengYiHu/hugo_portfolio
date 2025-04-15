@@ -18,7 +18,7 @@
 .subtitle {
     opacity: 0.86;
     margin: 1ex 0 0;
-    font-style: italic;
+    font: 1rem/2rem monospace;
 }
 
 #main-article [role=doc-credit],
@@ -162,7 +162,9 @@ header time {
 }
 
 #content p img {
-    width: calc(60% - var(--indent));
+    width: 50%;
+    height: auto;
+    align-items: center
 }
 
 /* article backmatter */

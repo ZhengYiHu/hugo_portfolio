@@ -39,6 +39,11 @@ hr.ldots::after {
     writing-mode: tb;
 }
 
+#tags
+{
+    flex: 33%;
+}
+
 #list-tags {
     position: sticky;
     position: -webkit-sticky;
