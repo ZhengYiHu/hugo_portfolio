@@ -154,7 +154,7 @@ body.focus #dwclock {
 
 #top,
 .pagewidth {
-    padding:0 calc(1.5rem + 1ex)
+    padding:0 calc(1.5rem + 1ex);
     /* width: var(--canonic);
     max-width: var(--max-width); */
 }

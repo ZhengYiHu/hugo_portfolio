@@ -3,7 +3,7 @@
     transition: 99ms;
     margin: var(--medskip) auto var(--medskip) 0;
     padding: 2rem;
-    width: var(--golden-ratio);
+    width: 100%;
     font-size: var(--small);
 
     background-color: #454d9019;

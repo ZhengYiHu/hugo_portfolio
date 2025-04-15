@@ -60,6 +60,8 @@ hr.ldots::after {
 #taxonomy section.pagewidth,
 #list-posts  {
     min-height: calc(var(--vbody) - 7.258rem);
+    width: 60%;
+    margin: auto;
 }
 
 #taxonomy #list-tags {
