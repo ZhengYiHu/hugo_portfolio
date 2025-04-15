@@ -5,6 +5,9 @@
     padding: 2rem;
     width: var(--golden-ratio);
     font-size: var(--small);
+
+    background-color: #454d9019;
+    border-radius: 7px;
 }
 
 .feed-item:hover,
