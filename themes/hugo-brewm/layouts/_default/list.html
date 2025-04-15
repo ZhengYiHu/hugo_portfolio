@@ -41,7 +41,9 @@
                 {{ partial "hero.html" $ }}
             {{- end }}
         {{- else }}
-            {{ .Content }}
+            <article id="main-article" class="pagewidth">
+                {{ .Content }}
+            </article>
         {{- end }}
     {{- end }}
 {{- end -}}

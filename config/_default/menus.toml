@@ -43,7 +43,7 @@
   [[main]]
     name       = 'Game Jams'
     identifier = 'jams'
-    pageRef    = '/gamejams/'
+    pageRef    = '/3_gamejams/'
     parent     = 'games'
     Post       = 'Games submitted in game jams'
     weight     = 4

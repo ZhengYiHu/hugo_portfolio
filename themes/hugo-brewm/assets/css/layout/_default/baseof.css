@@ -20,7 +20,7 @@
     --vfoot: 3.33rem;
     --vbody: calc(100vh - var(--vhead) - var(--vfoot));
     --marginparwidth: 27vw; /* --canonic - ( --canonic * --golden-ratio) */
-    --g18: #5c070780;
+    --g18: #ee850f;
     --g18s: #80808022;
     --bound: 1pt dotted var(--g18);
     --border: 1pt solid var(--g18s);
