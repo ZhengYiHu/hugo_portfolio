@@ -41,14 +41,7 @@
                 {{ partial "hero.html" $ }}
             {{- end }}
         {{- else }}
-            {{- if .IsSection }}
-                <div id="list-subsection" class="carousel">
-                    {{ partial "list/sections.html" (dict "class" "carousel__viewport" "cover" true "page" .) }}
-                </div>
-            {{- end }}
-            {{- with .Content }}
-                {{ partial "hero.html" $ }}
-            {{- end }}
+            {{ .Content }}
         {{- end }}
     {{- end }}
 {{- end -}}

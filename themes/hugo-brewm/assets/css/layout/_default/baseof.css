@@ -20,7 +20,7 @@
     --vfoot: 3.33rem;
     --vbody: calc(100vh - var(--vhead) - var(--vfoot));
     --marginparwidth: 27vw; /* --canonic - ( --canonic * --golden-ratio) */
-    --g18: #80808080;
+    --g18: #5c070780;
     --g18s: #80808022;
     --bound: 1pt dotted var(--g18);
     --border: 1pt solid var(--g18s);
@@ -154,8 +154,7 @@ body.focus #dwclock {
 
 #top,
 .pagewidth {
-    padding-right: var(--void);
-    padding-left: var(--void);
+    padding:0 calc(1.5rem + 1ex)
     /* width: var(--canonic);
     max-width: var(--max-width); */
 }
@@ -163,6 +162,7 @@ body.focus #dwclock {
 .textwidth {
     width: var(--golden-ratio);
 }
+
 
 #main-footer .pagewidth {
     padding: 0 calc(var(--void) - 1ex - 1rem);

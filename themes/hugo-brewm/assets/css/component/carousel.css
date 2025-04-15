@@ -49,6 +49,9 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+
+    background-color: #454d9019;
+    border-radius: 7px;
 }
 
 ul.carousel__viewport {

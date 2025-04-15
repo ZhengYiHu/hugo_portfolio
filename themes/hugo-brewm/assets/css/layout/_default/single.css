@@ -2,6 +2,8 @@
     margin-top: 1in;
     line-height: calc(var(--baselineStretch) * 1.618);
     font-family: var(--rm), serif;
+    padding-right: var(--void);
+    padding-left: var(--void);
 }
 
 /* article frontmatter */

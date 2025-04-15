@@ -2,7 +2,7 @@
     position: relative;
     transition: 99ms;
     margin: var(--medskip) auto var(--medskip) 0;
-    padding: 1rem;
+    padding: 2rem;
     width: var(--golden-ratio);
     font-size: var(--small);
 }

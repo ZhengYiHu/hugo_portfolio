@@ -55,23 +55,7 @@
 
 {{- define "partials/main/header.html" -}}
     {{ "<!-- main/header.html -->" | safeHTML }}
-    {{- if not .IsHome }}
-        <header class="pagewidth">
-            {{/*
 
-                action menu  */}}
-            {{ partial "nav/menu.html" . }}
-            {{/*
-
-                breadcrumb */}}
-            {{- $minVersion := index ( split hugo.Version "." ) 1 }}
-            {{- if lt $minVersion 109 }}
-                {{ partial "legacy/breadcrumb.html" . }}
-            {{- else }}
-                {{ partial "nav.html" ( dict "navID" "breadcrumb" "page" . )}}
-            {{- end }}
-        </header>
-    {{- end }}
 {{- end }}
 
 {{- define "partials/header/logotype.html" -}}
