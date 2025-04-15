@@ -1,6 +1,6 @@
 ---
 title: "Banana Of Doom"
-description: "A guide on adding cover images and audio articles"
+description: "Playroom stuff"
 draft: false
 type: "post"
 tags: ["Unity","SmallTeam"]
