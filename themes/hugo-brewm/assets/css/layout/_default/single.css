@@ -1,5 +1,5 @@
 #main-article {
-    margin-top: 1in;
+    margin-top: 0.2in;
     line-height: calc(var(--baselineStretch) * 1.618);
     font-family: var(--rm), serif;
     padding-right: var(--void);
@@ -135,7 +135,7 @@ header time {
 #main-article audio,
 #main-article section > p {
     margin: 0.618pc 0;
-    width: var(--golden-ratio);
+    width: 100%;
 }
 
 /* article mainmatter */
@@ -202,7 +202,6 @@ header time {
 #keywords,
 #contentinfo {
     margin: var(--vskip);
-    overflow-wrap: break-word;
 }
 
 .verbose {

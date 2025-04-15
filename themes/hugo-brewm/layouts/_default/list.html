@@ -89,59 +89,61 @@
         {{- if eq (len $paginator.Pages) 0 }}
             {{ template "no-content"}}
         {{- else }}
-            <section id="list-posts" class="pagewidth">
-                <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
-                    <strong>
-                        {{- if .IsHome }}
-                            {{- if $firstPage }}
-                                {{ i18n "games" $paginator.NumberOfElements }}
-                            {{- else }}
-                                {{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }}
-                                {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
-                            {{- end }}
-                        {{- else }}
-                            {{- $title := .LinkTitle }}
-                            {{- if eq (lower $title) (lower (i18n "posts" 1)) }}
-                                {{- i18n "allPosts" }}
-                                {{- if not $firstPage }}
-                                    {{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
+            {{- if not (eq .Title "GameJams") }}
+                <section id="list-posts" class="pagewidth">
+                    <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
+                        <strong>
+                            {{- if .IsHome }}
+                                {{- if $firstPage }}
+                                    {{ i18n "games" $paginator.NumberOfElements }}
+                                {{- else }}
+                                    {{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }}
+                                    {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
                                 {{- end }}
-                            {{- else if eq (lower $title) (lower (i18n "articles" 1)) }}
-                                {{- i18n "articles" }}
-                            {{- else if eq .Data.Singular "author" }}
-                                {{- i18n "postsBy" }}: {{- $title }}
                             {{- else }}
-                                {{- i18n "postsOn" }}: <span class="{{ .Data.Singular }}">{{ $title }}</span>
+                                {{- $title := .LinkTitle }}
+                                {{- if eq (lower $title) (lower (i18n "posts" 1)) }}
+                                    {{- i18n "allPosts" }}
+                                    {{- if not $firstPage }}
+                                        {{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
+                                    {{- end }}
+                                {{- else if eq (lower $title) (lower (i18n "articles" 1)) }}
+                                    {{- i18n "articles" }}
+                                {{- else if eq .Data.Singular "author" }}
+                                    {{- i18n "postsBy" }}: {{- $title }}
+                                {{- else }}
+                                    {{- i18n "postsOn" }}: <span class="{{ .Data.Singular }}">{{ $title }}</span>
+                                {{- end }}
                             {{- end }}
+                        </strong>
+                    </header>
+                    {{- $liViewCondition := or (and $active (not .IsHome)) (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
+                    {{- if $liViewCondition }}
+                        {{ template "li" . }}
+                    {{- else }}
+                        <div role="feed" aria-busy="false">
+                        {{- range $index, $page := $paginator.Pages }}
+                            {{- $counter := add $index 1 }}
+                            {{- $author := default site.Params.Author.name .Params.author }}
+                            {{- $authors := .GetTerms "author" }}
+                            {{- $categories := .GetTerms "categories" }}
+                            {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
+                            {{- $hasCover := partial "partials/page/cover.html" (dict "page" .) }}
+                            {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
+                            {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
+                            {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors) }}
                         {{- end }}
-                    </strong>
-                </header>
-                {{- $liViewCondition := or (and $active (not .IsHome)) (and (eq .Kind "term") (eq .Data.Plural "series") ) }}
-                {{- if $liViewCondition }}
-                    {{ template "li" . }}
-                {{- else }}
-                    <div role="feed" aria-busy="false">
-                    {{- range $index, $page := $paginator.Pages }}
-                        {{- $counter := add $index 1 }}
-                        {{- $author := default site.Params.Author.name .Params.author }}
-                        {{- $authors := .GetTerms "author" }}
-                        {{- $categories := .GetTerms "categories" }}
-                        {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
-                        {{- $hasCover := partial "partials/page/cover.html" (dict "page" .) }}
-                        {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
-                        {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
-                        {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors) }}
-                    {{- end }}
-                    </div>
-                    {{/*
+                        </div>
+                        {{/*
 
-                        paginator navigation */}}
-                    {{- if or .Paginator.HasPrev .Paginator.HasNext }}
-                        <hr class="hide">
-                        {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
+                            paginator navigation */}}
+                        {{- if or .Paginator.HasPrev .Paginator.HasNext }}
+                            <hr class="hide">
+                            {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
+                        {{- end }}
                     {{- end }}
-                {{- end }}
-            </section>
+                </section>
+            {{end}}
         {{- end }}
     {{- else }}
         {{- if eq (index site.Taxonomies .Data.Plural | len) 0 }}
