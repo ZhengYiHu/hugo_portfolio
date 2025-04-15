@@ -1,7 +1,7 @@
 #main-article {
     margin-top: 0.2in;
     line-height: calc(var(--baselineStretch) * 1.618);
-    font-family: var(--rm), serif;
+    font-family: var(--rm), sans-serif;
     padding-right: var(--void);
     padding-left: var(--void);
 }
@@ -18,7 +18,7 @@
 .subtitle {
     opacity: 0.86;
     margin: 1ex 0 0;
-    font: 1rem/2rem monospace;
+    font-family: var(--sf), sans-serif;
 }
 
 #main-article [role=doc-credit],
@@ -136,6 +136,7 @@ header time {
 #main-article section > p {
     margin: 0.618pc 0;
     width: 100%;
+    font-family: var(--sf), sans-serif;
 }
 
 /* article mainmatter */

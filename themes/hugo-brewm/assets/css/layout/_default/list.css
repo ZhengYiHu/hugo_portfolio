@@ -2,6 +2,7 @@ hr.ldots {
     margin-left: 0;
     border: none;
     width: var(--golden-ratio);
+    margin: auto;
 }
 
 hr.ldots::after {

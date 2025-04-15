@@ -13,7 +13,7 @@ h2,
 h3,
 h4 {
     margin: var(--bigskip) 0 var(--smallskip);
-    font-style: italic;
+    font-variant-caps: all-small-caps;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
     text-transform: capitalize;
     font-size: var(--huge);
     counter-reset: section;
+    font-family: var(--sf), sans-serif;
 }
 
 article > section {

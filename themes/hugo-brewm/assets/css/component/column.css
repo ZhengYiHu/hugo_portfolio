@@ -40,6 +40,7 @@
 
 .column.pin {
     --col: 13rem;
+    font-family: var(--sf), sans-serif;
 }
 
 .has-quote {

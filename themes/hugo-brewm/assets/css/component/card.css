@@ -38,10 +38,11 @@
 .feed-item .par {
     --grd: linear-gradient(var(--off) 50%, transparent 100%);
     opacity: 0.86;
-    margin-right: auto;
+    margin-right: 80px;
     -webkit-mask-image: var(--grd);
             mask-image: var(--grd);
     clip-path: text;
+    font-size: larger;
 }
 
 .feed-item img + .par {

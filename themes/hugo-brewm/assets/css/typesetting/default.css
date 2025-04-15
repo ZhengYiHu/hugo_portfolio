@@ -28,6 +28,7 @@ p * {
     margin-top: 0;
     padding-top: 0;
     text-indent: 0 !important;
+    font-family: var(--sf), sans-serif;
 }
 
 blockquote {

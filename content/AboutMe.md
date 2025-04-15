@@ -5,11 +5,7 @@ weight: 1
 ---
 {{< figure 
 src="/medias/earthcake.gif" 
-alt="A photograph of Zion National Park"
-width= 2
-height= 2
-caption="Zion National ad"
-class="ma0 w-75"
+alt="Somehting"
 >}}
 
 

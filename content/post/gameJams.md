@@ -3,8 +3,9 @@ title: 'GameJams'
 type: "post"
 cover: 'https://img.itch.zone/aW1nLzIwMTgwMzQzLnBuZw==/315x250%23c/OKMnrn.png'
 tags: ["Godot","GameJam","Multiplayer"]
-categories: ["3_gameJams"]
+categories: ["3_gameJams", "2_personalProjects"]
 description: "A list of all my game jam games"
+weight: 4
 ---
 # Find all my jam games on my [Itch.io Page](https://zyhu.itch.io/)
 
