@@ -59,12 +59,14 @@ hr.ldots::after {
 
 #term section.pagewidth,
 #taxonomy section.pagewidth,
-#list-posts  {
+#list-posts {
     min-height: calc(var(--vbody) - 7.258rem);
-    width: 60%;
+    width: 100%;
+    max-width: 1000px; /* Or whatever looks good for your layout */
+    padding: 0 60px;
     margin: auto;
+    box-sizing: border-box;
 }
-
 #taxonomy #list-tags {
     position: unset;
     float: unset;
