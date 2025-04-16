@@ -9,7 +9,9 @@ theme = "hugo-brewm"
   enableInlineShortcodes = true
 [markup.goldmark.renderer] 
   unsafe= true
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 ## Typography settings
 [params.typeface]
     ## Use web safe fonts (will overide font selection below)
