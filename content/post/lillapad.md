@@ -10,7 +10,7 @@ weight: 1
 ---
 
 {{< figure 
-src="medias/MainHub.png" 
+src="medias/mainhub.png" 
 alt="Main Hub"
 >}}
 
@@ -25,7 +25,7 @@ alt="Main Hub"
 Lillapad is a puzzle platformer where you switch between a tadpole and a frog, utilizing the unique abilities of each form to navigate through various levels.
 
 
-![](medias/MainHub.png)
+![](medias/mainhub.png)
 
 
 
