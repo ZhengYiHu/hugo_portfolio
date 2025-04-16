@@ -375,3 +375,7 @@ header time {
     }
 
 }
+
+ul[role="presentation"] li {
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
