@@ -22,6 +22,8 @@ theme = "hugo-brewm"
     sans = 'inter'
     ## use typeface stored in local server (pleaase download font's uri first)
     localHost = false
-[[module.mounts]]
-    source = "static"
-    target = "static"
+
+## Enable Git information for pages, (e.g. lastMod date information)
+enableGitInfo = true
+## Convert all URLs to absolute URLs
+canonifyURLs = true
