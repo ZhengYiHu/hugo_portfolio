@@ -6,7 +6,7 @@
 {{- $alt := .Get "alt" }}
 {{- if .IsNamedParams }}
     {{- if .Get "quote" }}
-        <a href="{{ $url }}" class="has-img has-aria-label has-quote"
+        <a href="{{ $url }}" target="_blank" class="has-img has-aria-label has-quote"
             {{ with $label }} aria-label="{{ . }}"{{ end }}>
             {{ with .Get "quote" }}<div>{{ safeHTML . }}</div>{{ end }}
             {{ with $img }} <img src="{{ . }}" alt="{{ or $alt $label }}" loading="lazy">{{ end }}

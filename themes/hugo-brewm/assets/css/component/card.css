@@ -38,7 +38,7 @@
 .feed-item .par {
     --grd: linear-gradient(var(--off) 50%, transparent 100%);
     opacity: 0.86;
-    margin-right: 80px;
+    margin-right: 8pt;
     -webkit-mask-image: var(--grd);
             mask-image: var(--grd);
     clip-path: text;

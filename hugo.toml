@@ -1,11 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://zyhu.org/'
 languageCode = 'en-us'
 title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
 [params.logo]
        logoType = true
+       logoMark = '/medias/logo.svg' 
 [security]
   enableInlineShortcodes = true
+[markup.goldmark.renderer] 
+  unsafe= true
 
 ## Typography settings
 [params.typeface]
