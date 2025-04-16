@@ -1,4 +1,4 @@
-baseURL = 'https://zyhu.org/'
+baseURL = 'https://zhengyihu.github.io/hugo_portfolio/'
 languageCode = 'en-us'
 title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
@@ -22,3 +22,6 @@ theme = "hugo-brewm"
     sans = 'inter'
     ## use typeface stored in local server (pleaase download font's uri first)
     localHost = false
+[[module.mounts]]
+    source = "static"
+    target = "static"
