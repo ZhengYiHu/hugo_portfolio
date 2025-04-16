@@ -3,7 +3,7 @@ title: "Lillapad"
 description: "Lillapad is a puzzle platformer where you switch between a tadpole and a frog, utilizing the unique abilities of each form to navigate through various levels."
 draft: false
 type: "post"
-tags: ["Unreal"]
+tags: ["Unreal","Personal"]
 categories: ["2_personalProjects"]
 cover: 'medias/lillapad.jpg'
 weight: 1

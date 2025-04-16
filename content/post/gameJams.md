@@ -2,7 +2,7 @@
 title: 'GameJams'
 type: "post"
 cover: 'https://img.itch.zone/aW1nLzIwMTgwMzQzLnBuZw==/315x250%23c/OKMnrn.png'
-tags: ["Godot","GameJam","Multiplayer"]
+tags: ["Godot","GameJam","Multiplayer","Personal"]
 categories: ["3_gameJams", "2_personalProjects"]
 description: "A list of all my game jam games"
 weight: 4

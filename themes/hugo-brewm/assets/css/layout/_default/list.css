@@ -45,6 +45,11 @@ hr.ldots::after {
     flex: 33%;
 }
 
+#top
+{
+    flex-direction: row;
+}
+
 #list-tags {
     position: sticky;
     position: -webkit-sticky;
@@ -153,6 +158,10 @@ hr.ldots::after {
         margin: var(--bigskip) auto;
         padding: 0;
         width: var(--canonic);
+    }
+    #top
+    {
+        flex-direction: column;
     }
 
 }

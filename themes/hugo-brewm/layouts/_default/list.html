@@ -34,14 +34,14 @@
                         </div>
                     </div>
                 {{- else }}
-                    {{ partial "listing.html" (dict "entry" "categories") }}
-                    
-                    <div id="tags" aria-label="{{ i18n "discover" }}">
-                        <header class="section-title">
-                            <strong>{{ i18n "discover" }}</strong>
-                        </header>
-                        {{ partial "taxonomies.html" (dict "taxonomy" "tags" "class" "rounded has-hash" "limit" 16) }}
-                    </div>
+                        {{ partial "listing.html" (dict "entry" "categories") }}
+                        <div id="tags" aria-label="{{ i18n "discover" }}">
+                            <header class="section-title">
+                                <strong>{{ i18n "discover" }}</strong>
+                            </header>
+                            {{ partial "taxonomies.html" (dict "taxonomy" "tags" "class" "rounded has-hash" "limit" 16) }}
+                        </div>
+               
                 {{- end }}
             {{- end }}
             {{- with .Content }}
