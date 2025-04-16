@@ -4,7 +4,7 @@ title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
 [params.logo]
        logoType = true
-       logoMark = '/medias/logo.svg' 
+       logoMark = '/hugo_portfolio/medias/logo.svg' 
 [security]
   enableInlineShortcodes = true
 [markup.goldmark.renderer] 
@@ -26,4 +26,4 @@ theme = "hugo-brewm"
 ## Enable Git information for pages, (e.g. lastMod date information)
 enableGitInfo = true
 ## Convert all URLs to absolute URLs
-canonifyURLs = true
+canonifyURLs = false

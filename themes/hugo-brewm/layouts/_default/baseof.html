@@ -3,6 +3,7 @@
 {{- $dir := or site.Language.LanguageDirection "ltr" }}
 <html lang="{{ $lang }}" dir="{{ $dir }}">
 <head>
+    <base href="{{ .Site.BaseURL }}">
     {{ partial "head.html" . }}
     {{ block "head" . }}{{ end }}
 </head>

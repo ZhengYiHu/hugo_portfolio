@@ -1,4 +1,4 @@
 ---
 title: 'PersonalProjects'
-cover: '/medias/lillapad.jpg'
+cover: 'medias/lillapad.jpg'
 ---

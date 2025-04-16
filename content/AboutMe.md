@@ -4,10 +4,9 @@ title: 'About Me'
 weight: 1
 ---
 {{< figure 
-src="/medias/earthcake.gif" 
+src="medias/earthcake.gif" 
 alt="Somehting"
 >}}
-
 
 ## Zheng Yi Hu
 
