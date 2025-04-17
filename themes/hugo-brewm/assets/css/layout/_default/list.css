@@ -149,6 +149,10 @@ hr.ldots::after {
     font-size: var(--footnotesize);
 }
 
+ul.rounded.has-hash li {
+    margin-bottom: 6px; /* Adjust the spacing here */
+}
+
 @media only screen and (max-width: 640px) {
 
     body > main > aside#list-tags {

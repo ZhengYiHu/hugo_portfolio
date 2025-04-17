@@ -17,7 +17,7 @@
     --max-width: 1024px;
     --void: calc((100vw - var(--canonic) - 1rem) / 2);
     --vhead: 4.2rem;
-    --vfoot: 3.33rem;
+    --vfoot: 0rem;
     --vbody: calc(100vh - var(--vhead) - var(--vfoot));
     --marginparwidth: 27vw; /* --canonic - ( --canonic * --golden-ratio) */
     --g18: #ee850f;

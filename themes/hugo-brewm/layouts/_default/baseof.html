@@ -18,9 +18,7 @@
             {{ block "top" . }}{{ end }}
         </div>
         {{ block "main" . }}{{ end }}
-        {{ partialCached "main/footer.html" . }}
     </main>
-    {{ partialCached "footer.html" . }}
 
     {{ block "post" . }}{{ end }}
     {{ "<!-- [background] baseof.html -->" | safeHTML }}
@@ -33,13 +31,5 @@
     <div id="background-body"
         role="presentation">
         <div id="grain" hidden></div>
-        <div id="dwclock" hidden>
-            <div id="min">
-                <div class="hand"></div>
-            </div>
-            <div id="hour">
-                <div class="hand"></div>
-            </div>
-        </div>
     </div>
 {{- end }}

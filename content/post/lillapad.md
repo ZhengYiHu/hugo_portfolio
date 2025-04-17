@@ -12,6 +12,7 @@ weight: 1
 {{< figure 
 src="medias/mainhub.png" 
 alt="Main Hub"
+width=80%
 >}}
 
 ##### **Genre:** Puzzle Platformer
