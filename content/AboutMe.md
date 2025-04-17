@@ -4,12 +4,17 @@ title: 'About Me'
 weight: 1
 ---
 {{< figure 
-src="medias/earthcake.gif" 
-alt="Somehting"
+src="medias/pfp.png" 
+alt="Me:Zy!"
+width= 40%
 >}}
-
 ## Zheng Yi Hu
+Hey! I'm Zy 👋
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+A game developer passionate about multiplayer games, game jams, and animals. 
 
---- Lorem Ipsum
+I work with **Unity**, **Godot**, and **Unreal** to create fun experiences. 
+
+I made a frog game because I love frogs—ducks might be next.
+
+Check out my games at my [itch page](https://zyhu.itch.io/)!
