@@ -2,12 +2,9 @@ baseURL = 'https://hugo-portfolio-bvx.pages.dev/'
 languageCode = 'en-us'
 title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
-[params]
-author = "Zheng Yi Hu"
-
 [params.logo]
-  logoType = true
-  logoMark = "medias/logo.svg"
+       logoType = true
+       logoMark = 'medias/logo.svg' 
 [security]
   enableInlineShortcodes = true
 [markup.goldmark.renderer] 
