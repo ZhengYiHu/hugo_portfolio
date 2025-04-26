@@ -3,7 +3,7 @@ title: "Banana of Doom"
 description: "Banana of Doom is a wild multiplayer party game where players combine cards to create crazy answers, with an AI judging each one. The AI picks the most absurd or creative response, leading to hilarious and unpredictable rounds. Perfect for fast fun with friends!"
 draft: false
 type: "post"
-tags: ["Unity","Professional"]
+tags: ["Unity","Professional", "Multiplayer"]
 categories: ["1_professionalExperiences"]
 cover: 'medias/bananaOfDoom.png'
 weight: 2
@@ -52,3 +52,5 @@ Some of my responsabilities include the developement and implementation of new g
   alt2="Binder"
   caption2="Unlock and collect all the cards!"
 >}}
+
+## Lobby

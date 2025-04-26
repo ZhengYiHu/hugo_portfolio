@@ -3,6 +3,9 @@ type: 'slide'
 title: 'Resume'
 weight: 1
 ---
+
+## View the <a href="medias/Zheng_Yi_Cv.pdf" target="_blank">Full document</a>
+
 # Work Experiences
 ## Little Umbrella (Playroom) - Game Developer Intern
 **04/2025 - 08/2025**
@@ -18,7 +21,10 @@ weight: 1
 
 ## Transreport - Quality Assurance Intern
 **06/2019 - 08/2019**
-- Designed and modeled test cases, performed QA testing, analyzed results, and automated tasks like data integration in spreadsheets using Python.
+
+- Designed and modeled test cases
+- Performed QA testing
+- Automated tasks in spreadsheets using Python.
 
 ---
 # Skills

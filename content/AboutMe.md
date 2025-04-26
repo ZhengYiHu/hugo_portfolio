@@ -11,10 +11,10 @@ width= 40%
 ## Zheng Yi Hu
 Hey! I'm Zy 👋
 
-A game developer passionate about multiplayer games, game jams, and animals. 
+A game developer passionate about developing [multiplayer games](tags/multiplayer/), [game jams](post/gamejams/), and animals. 
 
-I work with **Unity**, **Godot**, and **Unreal**. 
+I work with [**Unity**](tags/unity/), [**Godot**](tags/godot/), and [**Unreal**](tags/unreal/). 
 
-I made a frog game because I love frogs — ducks might be next.
+I made a [frog game](post/lillapad/) because I love frogs — ducks might be next.
 
-Check out my games at my [itch page](https://zyhu.itch.io/)!
+Check out all my games on my [itch page](https://zyhu.itch.io/)!

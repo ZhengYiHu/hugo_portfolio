@@ -1,9 +1,9 @@
 ---
 type: 'slide'
-title: 'Contact'
+title: 'Contacts'
 weight: 2
 ---
-### Find me at:
+## Find me at
 <br/>
 <ul role="presentation">
   <li><i class="icon email"></i> Email: <a href="mailto:zhengyi.hu.98@gmail.com">zhengyi.hu.98@gmail.com</a> </li>
@@ -14,3 +14,9 @@ weight: 2
 
   <li><i class="icon githubsponsors"></i> Itch.io <a href="https://zyhu.itch.io/">https://zyhu.itch.io</a> </li>
 </ul>
+
+{{< figure 
+src="medias/meirl.gif" 
+alt="Fwog!"
+width= 80%
+>}}
