@@ -1,13 +1,14 @@
 ---
 title: 'GameJams'
 type: "post"
-cover: 'https://img.itch.zone/aW1nLzIwMTgwMzQzLnBuZw==/315x250%23c/OKMnrn.png'
-tags: ["Godot","GameJam","Multiplayer","Personal"]
+cover: 'medias/groovy_ghost.gif'
+tags: ["Godot","Unity","GameJam","Multiplayer","Personal"]
 categories: ["3_gameJams", "2_personalProjects"]
-description: "A list of all my game jam games"
+description: "Here’s a collection of all the jam games I’ve worked on. I’ve had a lot of fun experimenting with different multiplayer mechanics. Each game is a chance to try out new ideas and learn new tools"
 weight: 4
 ---
-# Find all my jam games on my [Itch.io Page](https://zyhu.itch.io/)
+### Find all my jam games on my <a href="https://zyhu.itch.io/" target="_blank">Itch.io Page</a>
+
 
 This is a non exhaustive and evergrowing list of all games I've made for various game jams.
 Feel free to check them out!

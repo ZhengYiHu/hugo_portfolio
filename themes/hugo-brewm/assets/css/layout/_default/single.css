@@ -1,9 +1,10 @@
 #main-article {
+    margin: 0 auto;
     margin-top: 0.2in;
     line-height: calc(var(--baselineStretch) * 1.618);
     font-family: var(--rm), sans-serif;
-    padding-right: var(--void);
-    padding-left: var(--void);
+    padding-right: 26%;
+    padding-left:  26%;
 }
 
 /* article frontmatter */
@@ -362,21 +363,6 @@ header time {
 
 #join-discussion-bluesky > .t {
     --tsf: translate(-5em);
-}
-
-@media screen and (max-width: 640px) {
-
-    #contentinfo {
-        display: block;
-    }
-
-    #contentinfo > * {
-        margin-bottom: var(--bigskip) ;
-    }
-    .katex-display {
-        overflow-x: auto;
-    }
-
 }
 
 ul[role="presentation"] li {
