@@ -40,17 +40,15 @@ alt="ABOD"
 width=100%
 >}}
 
-# My Role
+# My Contribution
 
 Some of my responsabilities include the developement and implementation of new game features such as the **Lobby Minigame**, the **Cards Binder** or a brand new **Single Player Gamemode** to play the game alone.
 
 {{< sidebyside
-  src1="medias/tadpoleSwim.gif"
+  src1="medias/abod_lobby_minigame.gif"
   alt1="Lobby Minigame"
   caption1="You can throw cards while waiting for other players to join"
-  src2="medias/hooks.gif"
+  src2="medias/abod_binder.gif"
   alt2="Binder"
   caption2="Unlock and collect all the cards!"
 >}}
-
-## Lobby

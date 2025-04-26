@@ -267,23 +267,23 @@ hr {
 }
 
 @media (prefers-color-scheme: light) {
-
+    
     body {
-        --bg: var(--bg-light);
+        --bg: var(--bg-dark);
         --mid: var(--midtone);
-        --fg: var(--fg-light);
-        --ac: var(--ac-light);
-        --off: #000;
+        --fg: var(--fg-dark);
+        --ac: var(--ac-dark);
+        --off: #fff;
     }
 
     @media (prefers-contrast: more),
     (-ms-high-contrast: active) {
 
         body {
-            --bg: var(--bg-light-more);
+            --bg: var(--bg-dark-more);
             --mid: var(--midtone-more);
-            --fg: var(--fg-light-more);
-            --ac: var(--ac-light-more);
+            --fg: var(--fg-dark-more);
+            --ac: var(--ac-dark-more);
         }
 
     }
@@ -291,10 +291,10 @@ hr {
     @media (prefers-contrast: less) {
 
         body {
-            --bg: var(--bg-light-less);
+            --bg: var(--bg-dark-less);
             --mid: var(--midtone-less);
-            --fg: var(--fg-light-less);
-            --ac: var(--ac-light-less);
+            --fg: var(--fg-dark-less);
+            --ac: var(--ac-dark-less);
         }
 
     }

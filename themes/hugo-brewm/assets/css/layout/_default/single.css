@@ -3,10 +3,10 @@
     margin-top: 0.2in;
     line-height: calc(var(--baselineStretch) * 1.618);
     font-family: var(--rm), sans-serif;
-    padding-right: 26%;
-    padding-left:  26%;
+    padding: 0 1rem;
+    width: 80%;
+    max-width: 90ch; /* or 600px, 65ch, whatever you like */
 }
-
 /* article frontmatter */
 
 #main-article > header {
