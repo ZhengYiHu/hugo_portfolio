@@ -1,4 +1,4 @@
-baseURL = 'https://hugo-portfolio-bvx.pages.dev/'
+baseURL = 'https://zymakes.games/'
 languageCode = 'en-us'
 title = 'Zheng Yi Hu'
 theme = "hugo-brewm"

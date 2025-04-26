@@ -20,7 +20,7 @@ width=100%
 ---
 # About Playroom
 {{< figure 
-src="medias/little_umbrella.png" 
+src="medias/little_umbrella_banner.png" 
 alt="Little Umbrella"
 width=100%
 >}}
