@@ -23,7 +23,7 @@
 .feed-item h1 {
     margin: 8pt 0 0 0;
     color: var(--fg);
-    font-size: var(--Large);
+    font-size: var(--LARGE);
     font-weight: 700;
 }
 
@@ -74,7 +74,7 @@
 .feed-item > section {
     display: flex;
     flex-direction: row-reverse;
-    margin: 8pt 0;
+    margin: 15pt 3pt;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -83,6 +83,21 @@
 
 .feed-item > section.has-cover {
     aspect-ratio: 10/3;
+}
+
+.has-cover {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Keep image at the top, description below */
+    grid-template-columns: 1fr; /* Ensure the grid has just one column */
+    position: relative;
+}
+
+.par {
+    display: flex;
+    align-items: center;        /* Vertical centering */
+    justify-content: left;    /* Horizontal centering */
+    width: 100%;                /* Ensure it takes the full width of its parent */
+    text-align: left;         /* Optional, for text centering */
 }
 
 .feed-item > footer,

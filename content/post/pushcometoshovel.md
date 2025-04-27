@@ -6,7 +6,7 @@ type: "post"
 tags: ["Unreal","Personal"]
 categories: ["2_personalProjects"]
 cover: 'medias/pcts_thumbnail.jpg'
-weight: 2
+weight: 3
 ---
 {{< figure 
 src="medias/pcts_banner.jpg" 
@@ -40,5 +40,48 @@ As the **Lead Programmer**, I was responsible for overseeing the programming tea
 On the development side, I built and maintained key systems that formed the backbone of the game, including the **dialogue system**, **quest system**, and **save/load** functionality. To streamline development, I also created user-friendly interfaces and tools that allowed non-programmers to easily implement content without needing to touch code.
 
 
-# Quest System
+## Quest System
 
+I developed a fully **data-driven** quest system, where all quest logic is based on the game's save data. Whenever the player’s progress changes, quests automatically update to reflect the new state.
+
+Each quest can define a variety of conditions, such as previously completed quests, inventory contents, or world states (like interacting with specific objects).
+
+This system accommodates the design of non-linear quests and branching dialogues, allowing for complex player choices and dynamic storylines. Designers can create as many quests as they want, with as much depth and variation as needed, simply by editing a data file. No changes to the game's blueprints are required.
+
+
+{{< figure 
+src="medias/quest_system.png" 
+alt="Quest"
+width=100%
+>}}
+
+## Dialogue System
+
+Given the non-linear nature of the game, the dialogue system needed to dynamically display different dialogue options based on the current game state. To keep the branching dialogue and associated logic well-organized, I implemented a text-based dialogue editor.
+
+I integrated <a href="https://github.com/sinbad/SUDS" target="_blank">Steve’s Unreal Dialogue System (SUDS)</a>  to assist with parsing and encoding dialogue data efficiently. The system is now capable of handling complex events, such as giving items or triggering animations at specific points during conversations.
+
+This ensures that dialogues evolve in response to player actions, supporting a rich, interactive narrative experience.
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <figure style="text-align: center;">
+        <img src="medias/harry_dialogue.png" alt="harry dialogue" style="height: 300px; object-fit: cover;">
+        <figcaption>Harry Dialogue</figcaption>
+    </figure>
+    <figure style="text-align: center;">
+        <img src="medias/pcts_magic_trick.gif" alt="magic trick" style="height: 300px; object-fit: cover;">
+        <figcaption>Magic Trick</figcaption>
+    </figure>
+</div>
+
+## In Game Debugger
+
+As the game gives players more freedom, it becomes essential to test a wide range of possible situations, including the most unlikely ones. To support this, I developed a custom debugger panel that not only provides a detailed view of the game's current state, but also allows designers and QA to manipulate game elements in real-time.
+
+This panel enables testers to quickly adjust variables, trigger events, and observe how the world updates instantly, ensuring that all scenarios are covered during testing.
+
+{{< figure 
+src="medias/pcts_debugger.gif" 
+alt="Debugger"
+width=100%
+>}}

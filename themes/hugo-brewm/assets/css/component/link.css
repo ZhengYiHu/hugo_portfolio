@@ -39,6 +39,7 @@ a.underline:focus {
 ul.rounded li {
     margin: 0.5ex;
     display: inline-block;
+    font-size: 1.3em;
 }
 
 ul.rounded a {

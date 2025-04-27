@@ -6,7 +6,7 @@ type: "post"
 tags: ["Godot","Multiplayer","Personal"]
 categories: ["2_personalProjects"]
 cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8UN6e2O0DfZcvcgySvYIAn3ukQBikKNFWg&s'
-weight: 3
+weight: 6
 ---
 
 

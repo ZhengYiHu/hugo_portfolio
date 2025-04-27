@@ -6,7 +6,7 @@ type: "post"
 tags: ["Unity","Professional"]
 categories: ["1_professionalExperiences"]
 cover: 'medias/playwind.png'
-weight: 2
+weight: 4
 ---
 {{< figure 
 src="medias/playwind_banner.png" 

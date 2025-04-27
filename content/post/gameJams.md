@@ -5,7 +5,7 @@ cover: 'medias/groovy_ghost.gif'
 tags: ["Godot","Unity","GameJam","Multiplayer","Personal"]
 categories: ["3_gameJams", "2_personalProjects"]
 description: "Here’s a collection of all the jam games I’ve worked on. I’ve had a lot of fun experimenting with different multiplayer mechanics. Each game is a chance to try out new ideas and learn new tools"
-weight: 4
+weight: 5
 ---
 ### Find all my jam games on my <a href="https://zyhu.itch.io/" target="_blank">Itch.io Page</a>
 
