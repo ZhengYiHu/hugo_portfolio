@@ -20,7 +20,7 @@
   name       = 'Professional Experiences'
   identifier = 'professional'
   pageRef    = '/categories/1_professionalexperiences/'
-  Post       = 'Serious stuff'
+  Post       = 'Work related projects'
   parent     = 'games'
   weight     = 1
 
@@ -28,7 +28,7 @@
   name       = 'Personal Projects'
   identifier = 'personal'
   pageRef    = '/categories/2_personalprojects/'
-  Post       = 'School projects'
+  Post       = 'Personal projects'
   parent     = 'games'
   weight     = 2
 
