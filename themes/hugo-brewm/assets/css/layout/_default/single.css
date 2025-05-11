@@ -367,3 +367,19 @@ header time {
 ul[role="presentation"] li {
     margin-bottom: 20px; /* Adjust this value as needed */
   }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 25px; /* Rounded corners for the container */
+  padding: 0 5%;
+}
+
+video {
+  border-radius: 25px; 
+  min-width: 100%; 
+  min-height: 100%; 
+  object-fit: cover;
+}

@@ -15,6 +15,7 @@ alt="Main Hub"
 width=100%
 >}}
 
+
 ##### **Genre:** Puzzle Platformer
 #####  **Engine:** Unreal Engine
 #####  **Role:** Solo Programmer
@@ -23,6 +24,14 @@ width=100%
 #####  **Link:** *Steam TBA*
 ---
 # About the game
+
+## Game Trailer
+
+<div class="video-container">
+<video  muted controls loading="lazy" poster="medias/lillapad_poster.png">
+  <source src="medias/LillapadTrailer.mp4" type="video/mp4">
+</video>
+</div>
 
 In Lillapad, you play as Lilla, a young girl who’s been transformed into a tadpole by King Frog, only to discover she has the unexpected ability to switch between tadpole and frog forms at will.
 
