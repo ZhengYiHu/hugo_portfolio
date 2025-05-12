@@ -2,9 +2,14 @@ baseURL = 'https://zymakes.games/'
 languageCode = 'en-us'
 title = 'Zheng Yi Hu'
 theme = "hugo-brewm"
-[params.logo]
-       logoType = true
-       logoMark = 'medias/logo.svg' 
+
+[params]
+  [params.favicon]
+        favicon = '/icons/favicon.ico'
+  [params.logo]
+        logoType = true
+        logoMark = 'medias/logo.svg' 
+
 [security]
   enableInlineShortcodes = true
 [markup.goldmark.renderer] 
