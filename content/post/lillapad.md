@@ -5,7 +5,7 @@ draft: false
 type: "post"
 tags: ["Unreal","Personal"]
 categories: ["2_personalProjects"]
-cover: 'medias/chilling.gif'
+cover: 'medias/lillapad_cover.png'
 weight: 1
 ---
 
