@@ -110,19 +110,29 @@
                     {{- if $liViewCondition }}
                         {{ template "li" . }}
                     {{- else }}
-                        <div role="feed" aria-busy="false">
-                        {{- range $index, $page := $paginator.Pages }}
+                    <div role="feed" aria-busy="false">
+                    {{- range $index, $page := $paginator.Pages }}
+
+                        {{- $skip := false }}
+                        {{- range $page.Params.categories }}
+                            {{- if and (eq . "4_blog") (ne $.Data.Term "4_blog") }}
+                                {{- $skip = true }}
+                            {{- end }}
+                        {{- end }}
+
+                        {{- if not $skip }}
                             {{- $counter := add $index 1 }}
-                            {{- $author := default site.Params.Author.name .Params.author }}
-                            {{- $authors := .GetTerms "author" }}
-                            {{- $categories := .GetTerms "categories" }}
-                            {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
-                            {{- $hasCover := partial "partials/page/cover.html" (dict "page" .) }}
-                            {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
+                            {{- $author := default site.Params.Author.name $page.Params.author }}
+                            {{- $authors := $page.GetTerms "author" }}
+                            {{- $desc := or $page.Params.Subtitle $page.Params.Description $page.Description $page.Summary }}
+                            {{- $hasCover := partial "partials/page/cover.html" (dict "page" $page) }}
+                            {{- $alt := or $page.Params.Alt $page.Params.coverAlt $page.Params.imagesAlt }}
                             {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
                             {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors) }}
                         {{- end }}
-                        </div>
+
+                    {{- end }}
+                    </div>
                         {{/*
 
                             paginator navigation */}}

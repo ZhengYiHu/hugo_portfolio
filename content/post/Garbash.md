@@ -22,6 +22,9 @@ width=100%
 #####  **Development time:** 7 days
 #####  **Link:** <a href="https://zyhu.itch.io/garbash" target="_blank">itch.io</a>
 ---
+# Jam Winner 🏆
+
+The game was created for the <a href="https://itch.io/jam/code-for-a-cause" target="_blank">Code for a Cause Jam</a>, a charity-driven game jam with nearly 300 entries. Garbash placed **#10** overall and took home the prize for **Best Multiplayer Entry**.
 # About the game
 
 Garbash is a fast-paced multiplayer game where you play as Tony or Ralph, two overworked garbage collectors racing against the clock to clean up the city.
@@ -42,7 +45,3 @@ Tony sprints through the streets, grabbing trash bags and hurling them toward Ra
   alt2="Ralph"
   caption2="Ralph bumping and losing his trash"
 >}}
-
-# Jam Winner 🏆
-
-The game was created for the <a href="https://itch.io/jam/code-for-a-cause" target="_blank">Code for a Cause Jam</a>, a charity-driven game jam with nearly 300 entries. Garbash placed **#10** overall and took home the prize for **Best Multiplayer Entry**.

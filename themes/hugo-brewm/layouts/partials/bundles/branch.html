@@ -9,6 +9,7 @@
         <ul class="{{ $class }}" role="presentation">
             {{- $index := 0 }}
             {{ range .ByCount -}}
+                {{- if not .Page.Params.skipListing }}
                 {{- $index = add $index 1 }}
                 {{- if or (le $index $limit) (not $limit) -}}
                     {{- $src := partial "partials/page/cover.html" (dict "page" .Page) }}
@@ -33,6 +34,7 @@
                         {{- end }}  */}}
                     </li>
                 {{- end }}
+                {{ end }}
             {{- end }}
         </ul>
     {{- end }}

@@ -78,7 +78,14 @@
   url        = '/resume'
 
 [[main]]
+  name       = 'Blog'
+  identifier = 'blog'
+  pageRef    = '/categories/4_blog'
+  weight     = 5
+
+[[main]]
   name       = 'Contact'
   identifier = 'contact'
   pageRef    = '/contact'
-  weight     = 5
+  weight     = 6
+
