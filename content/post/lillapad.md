@@ -15,14 +15,16 @@ alt="Main Hub"
 width=100%
 >}}
 
-
 ##### **Genre:** Puzzle Platformer
 #####  **Engine:** Unreal Engine
 #####  **Role:** Solo Programmer
 ##### **Team size:** 4
 #####  **Development time:** 4 months
-#####  **Link:** *Steam TBA*
+#####  **Link:** *[Steam](https://store.steampowered.com/app/3600440/Lillapad/)*
+
 ---
+<iframe src="https://store.steampowered.com/widget/3600440/" frameborder="0" width="646" height="190"></iframe>
+
 # About the game
 
 ## Game Trailer
