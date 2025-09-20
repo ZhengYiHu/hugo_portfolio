@@ -1,4 +1,4 @@
 ---
 title: 'ProfessionalExperiences'
-cover: 'medias/professional_cover.png'
+cover: 'medias/bod_splash.png'
 ---

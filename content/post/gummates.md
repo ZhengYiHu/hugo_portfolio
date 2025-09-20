@@ -1,7 +1,7 @@
 ---
-title: "Lillapad"
+title: "Gummates"
 description: "Lillapad is a puzzle platformer where you switch between a tadpole and a frog, utilizing the unique abilities of each form to navigate through various levels."
-draft: false
+draft: true
 type: "post"
 tags: ["Unreal","Personal"]
 categories: ["2_personalProjects"]
@@ -20,14 +20,8 @@ width=100%
 #####  **Role:** Solo Programmer
 ##### **Team size:** 4
 #####  **Development time:** 4 months
-#####  **Link:** *[Steam](https://store.steampowered.com/app/3600440/Lillapad/)*
 
 ---
-<iframe
-  class="steam-widget"
-  src="https://store.steampowered.com/widget/3600440/"
-  frameBorder="0"
-></iframe>
 
 # About the game
 

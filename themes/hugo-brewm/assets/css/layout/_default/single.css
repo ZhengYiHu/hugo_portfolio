@@ -377,9 +377,24 @@ ul[role="presentation"] li {
   padding: 0 5%;
 }
 
+.video-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* keeps correct YouTube ratio */
+  border: 0;
+  display: block;
+}
+
 video {
   border-radius: 25px; 
   min-width: 100%; 
   min-height: 100%; 
   object-fit: cover;
+}
+
+.steam-widget {
+  width: 100%;       /* take full width of container */
+  max-width: 646px;  /* don't stretch bigger than its native size */
+  height: 190px;     /* fixed height to avoid cutting */
+  border: 0;
 }

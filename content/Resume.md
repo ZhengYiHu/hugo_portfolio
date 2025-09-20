@@ -65,6 +65,7 @@ weight: 1
   <div style="flex: 1; margin-right: 20px;">
     <h3>Misc.</h3>
     <ul>
+      <li>Cloudflare</li>
       <li>Firebase</li>
       <li>AWS</li>
       <li>Protobuff</li>
