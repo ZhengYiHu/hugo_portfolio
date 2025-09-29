@@ -3,7 +3,7 @@ title: "Gumates"
 description: "Gumates is a casual physics-based co-op game where you and your friend stretch, stick, and stumble your way through challenges. Use your gummy arms to grab, pull, and hold onto objects."
 draft: false
 type: "post"
-tags: ["Unreal","Personal"]
+tags: ["Unreal","Personal", "Multiplayer"]
 categories: ["2_personalProjects"]
 cover: 'medias/gumates_splash.png'
 weight: 2
