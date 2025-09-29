@@ -34,26 +34,34 @@ weight: 2
 
 
 In **Banana of Doom**, the AI judge gives you a prompt, and you must combine words from different genres to craft the most hilarious answer. Your responses are then judged by the AI, and the player with the highest score at the end wins. Get ready for a fast-paced, laugh-out-loud party game!
-<!-- 
-{{< figure 
-src="medias/abod_gameplay.gif" 
-alt="ABOD"
-width=100%
->}} -->
 
-# My Contribution
+# My Contributions
 
-Some of my responsabilities include the developement and implementation of UI designs, card collection systems such as **Cards Binder** or a brand new **Gamemodes**, and various Discord specific integrations to sync purchased items across all the devices.
+My responsibilities included the development and implementation of UI designs, card collection systems such as Cards Binder and new Game Modes, as well as various Discord-specific integrations to synchronize purchased items across all devices.
+
+## Card Collection
+When I joined the project, the game was moving toward a TCG model with booster packs and card collection. My contributions primarily focused on implementing the card collection system, from pack opening to binder management.
 
 {{< sidebyside
-  src1="medias/abod_lobby_minigame.gif"
-  alt1="Lobby Minigame"
-  caption1="You can throw cards while waiting for other players to join"
-  src2="medias/abod_binder.gif"
+  src1="medias/bod_opening_pack.gif"
+  alt1="Opening a card pack"
+  caption1="Opening a card pack"
+  src2="medias/bod_cards_binder_anim.gif"
   alt2="Binder"
-  caption2="Unlock and collect all the cards!"
+  caption2="Filling the binder with new cards"
 >}}
 
+
+## Gameplay UI
+
+{{< sidebyside
+  src1="medias/bod_playing.png"
+  alt1="Crafting the perfect response"
+  caption1="Crafting the perfect response"
+  src2="medias/bod_judging.png"
+  alt2="AI judging the winner"
+  caption2="AI judges the winner"
+>}}
 
 # About Playroom
 {{< figure 
