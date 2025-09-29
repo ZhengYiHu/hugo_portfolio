@@ -75,5 +75,13 @@ This required most animations to blend between ragdoll behaviors and handcrafted
 
 We ended up working with two separate physics layers: one dedicated solely to animation interactions, which didn’t apply forces to move objects, and another for actual physics-based movements. This approach allowed us to maintain precise control over collisions and interactions while giving player models the ability to stretch and bend, adding visual flair.
 
+# Extra footage
 
-
+{{< sidebyside
+  src1="medias/gumates_clip5.gif"
+  alt1="Early mechanics prototypes"
+  caption1="Early mechanics prototypes"
+  src2="medias/gumates_clip6.gif"
+  alt2="Tutorial level greybox"
+  caption2="Tutorial level greybox"
+>}}
