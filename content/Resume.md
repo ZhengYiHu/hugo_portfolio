@@ -4,13 +4,13 @@ title: 'Resume'
 weight: 1
 ---
 
-## View the <a href="medias/Zheng_Yi_Cv.pdf" target="_blank">Full document</a>
+## View the <a href="medias/Resume_ZhengYi_Hu.pdf" target="_blank">Full document</a>
 
 # Work Experiences
 ## Little Umbrella (Playroom) - Game Developer Intern
-**04/2025 - 08/2025**
+**04/2025 - 09/2025**
 
-- Development of gameplay features for an unreleased multiplayer Discord Activity game.
+- Development of gameplay features for a multiplayer social party game
 
 
 ## Playwind Games - Game Developer
