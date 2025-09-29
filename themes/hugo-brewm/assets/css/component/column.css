@@ -39,8 +39,17 @@
 }
 
 .column.pin {
-    --col: 13rem;
-    font-family: var(--sf), sans-serif;
+  --col: 13rem;
+  font-family: var(--sf), sans-serif;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--col));
+  justify-content: start; /* align last row to the left */
+  gap: 1rem;
+}
+
+.column.pin > * {
+  flex: 1 1 var(--col); /* flex items take at least --col width */
 }
 
 .has-quote {

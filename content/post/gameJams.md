@@ -14,6 +14,8 @@ This is a non exhaustive and evergrowing list of all games I've made for various
 Feel free to check them out!
 
 {{< pin "begin" >}}
+{{< pin img="https://img.itch.zone/aW1nLzIyNTUxMDg3LmdpZg==/315x250%23cm/isEXB1.gif" label="Orbit Express" url="https://aviv-youker-harel.itch.io/orbit-express" quote="GMTK 2025">}}
+{{< pin img="https://img.itch.zone/aW1nLzIyNTExOTY0LnBuZw==/315x250%23c/bgsRYf.png" label="Garbash" url="https://zyhu.itch.io/pool-loop" quote="GMTK 2025">}}
 {{< pin img="https://img.itch.zone/aW1nLzIwMTgwMzQzLnBuZw==/315x250%23c/OKMnrn.png" label="Garbash" url="https://zyhu.itch.io/garbash" quote="CFAC-Jam Winner 🏆">}}
 {{< pin img="https://img.itch.zone/aW1nLzE5Njc5MTY5LnBuZw==/315x250%23c/ACDwBq.png" label="Soul Catcher" url="https://zyhu.itch.io/soul-catcher" quote="Boss Rush Jam 2025">}}
 {{< pin img="https://img.itch.zone/aW1nLzE3NTM2MTAyLnBuZw==/315x250%23c/yzEyhP.png" label="Crash Course" url="https://zyhu.itch.io/crashcourse" quote="Solo Dev Game Jam #4" >}}

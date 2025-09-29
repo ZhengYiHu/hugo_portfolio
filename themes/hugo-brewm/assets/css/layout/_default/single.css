@@ -373,7 +373,6 @@ ul[role="presentation"] li {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 25px; /* Rounded corners for the container */
   padding: 0 5%;
 }
 
