@@ -43,7 +43,9 @@ You'll have to move around together, pull one another and coordinate you movemen
 # My Role: Lead Programmer & Project Manager
 ## Proejct manager
 
-As project manager I was responsible of maintaining a clear roadmap for the entire developement cycle. Assigning tasks based on priorities and dependencies and making sure to have realistic and feasable deadlines based on everyone's performance and availability.
+As Project Manager, I was responsible for maintaining a clear roadmap throughout the entire development cycle. I assigned tasks according to priorities and dependencies, ensuring deadlines were realistic and achievable based on each team member’s performance and availability.
+
+We used Jira as our primary project management platform and held weekly sprints to keep the team aligned and on track.
 
 
 ## Lead Programmer
