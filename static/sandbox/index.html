@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>BOD Sandbox</title>
+    <style>
+      body { margin: 0; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-Dl10BR6t.js"></script>
+  </head>
+  <body>
+    
+     <img id="logo" src="./textures/Logo.png" style="
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 200px;
+      z-index: 10;
+    ">
+
+    <img 
+    id="options" 
+    src="./textures/options.png" 
+    alt="Options"
+    style="
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      width: 64px;
+      height: 64px;
+      cursor: pointer;
+      z-index: 10;
+      user-select: none;
+    "/>
+
+    
+    <button style="
+      position: absolute;
+      top: 30px;
+      right: 90px;
+      width: 200px;
+      height: 64px;
+      background: url('textures/howto.png') no-repeat center/contain;
+      color: rgb(0, 0, 0);
+      font-family: 'Jersey 10', sans-serif;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      z-index: 10;
+      padding-left: 30px;
+    ">
+
+      How to
+    </button>
+
+    <img 
+    id="discord" 
+    src="./textures/ServerButton.png" 
+    alt="Discord"
+    style="
+      position: absolute;
+      top: 30px;
+      right: 300px;
+      width: 64px;
+      height: 64px;
+      cursor: pointer;
+      z-index: 10;
+      user-select: none;
+    "/>
+
+
+
+    <img id="avatar" src="./textures/borderAlpha.png" style="
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      width: 150px;
+      z-index: 10;
+    ">
+
+    <div id="playerLabel" style="position: absolute; bottom: 5px; left: 100px; width: 260px; height: 60px; z-index: 0;">
+    <img src="./textures/PlayerName.png" style="width: 100%; height: 100%; display: block;">
+    <span id="playerText" style="
+        position: absolute;
+        top: 50%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Jersey 10', sans-serif;
+        font-size: 26px;
+        pointer-events: none;
+        user-select: none;
+    ">Zy</span>
+    </div>
+
+    <div id="deckContainer" style="
+        position: absolute;
+        bottom: 70px;
+        left: 165px;
+        width: 95px;
+        height: 80px;
+        cursor: pointer;
+        z-index: 10;
+        user-select: none;
+        background-image: url('textures/myDeck.png');
+        background-size: cover;
+        background-position: center;
+    ">
+        <img 
+            src="./textures/deckIcon.png" 
+            alt="Card"
+            style="
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 50px;
+                height: 40px;
+            "
+        >
+        
+        <!-- Text underneath -->
+        <span style="
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgb(0, 0, 0);
+            font-family: 'Jersey 10', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            pointer-events: none;
+            width: 100%;
+        ">My Deck</span>
+    </div>
+
+
+    <div id="deckContainer" style="
+        position: absolute;
+        bottom: 70px;
+        left: 265px;
+        width: 95px;
+        height: 80px;
+        cursor: pointer;
+        z-index: 10;
+        user-select: none;
+        background-image: url('textures/marketIcon.png');
+        background-size: cover;
+        background-position: center;
+    ">
+        <img 
+            src="./textures/shopIcon.png" 
+            alt="Card"
+            style="
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 50px;
+                height: 40px;
+            "
+        >
+        
+        <!-- Text underneath -->
+        <span style="
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgb(0, 0, 0);
+            font-family: 'Jersey 10', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            pointer-events: none;
+            width: 100%;
+        ">Market</span>
+    </div>
+
+    
+  </button>
+  </body>
+</html>
