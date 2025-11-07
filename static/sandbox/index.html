@@ -4,8 +4,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>BOD Sandbox</title>
-    <script type="module" crossorigin src="./assets/index-zDZC5wvv.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Df14rirW.css">
+    <script type="module" crossorigin src="./assets/index-Cj8TleED.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DxPTnlKn.css">
   </head>
 
   <body>
@@ -13,36 +13,64 @@
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/playroomkit/multiplayer.umd.js"></script>
 
-
+  <div id="lobby">
     <img id="logo" src="./textures/Logo.png">
-    <div id="leaderboardList">
-    </div>
+    <img  class="small_btn button" id="discord_btn" src="./textures/ServerButton.png" alt="Discord" style="top: 30px; right: 100px;">
 
-    <img  class="small_btn" id="options_btn" src="./textures/options.png" alt="Options" style="top: 30px; right: 20px;">
-    <img  class="small_btn" id="discord_btn" src="./textures/ServerButton.png" alt="Discord" style="top: 30px; right: 100px;">
-
-
-    <button id="copyBtn">Copy Link: NJDA</button>
-
+    <button class="button" id="copyBtn">Copy Link: NJDA</button>
 
     <img id="avatar" src="./textures/borderAlpha.png">
-
     <div id="playerName">
       <img src="./textures/PlayerName.png">
       <span id="playerText">Name</span>
     </div>
 
-    <div class="medium_button" style="left: 165px; background-image: url('textures/myDeck.png');">
+    <div class="medium_button button" style="left: 165px; background-image: url('textures/myDeck.png');">
       <img class="medium_button_icon" src="./textures/deckIcon.png">
       <span class="deckLabel">My Deck</span>
     </div>
 
-    <div class="medium_button" style="left: 265px; background-image: url('textures/marketIcon.png');">
+    <div class="medium_button button" style="left: 265px; background-image: url('textures/marketIcon.png');">
       <img class="medium_button_icon" src="./textures/shopIcon.png">
       <span class="deckLabel">Market</span>
     </div>
 
-     <button class ="big_button" id="startGame">Start Game</button>
+    <button class ="big_button button" id="startGame">Start Game</button>
+    
 
+  </div>
+  <div id="gameplay">
+      <button class ="big_button button" id="backToLobby">Back</button>
+      <span class="gameplay_instruction">Select a card (This don't do anything)</span>
+       <div class="cards_container"> 
+      <button class="card" style="background-image:url('textures/Knife.png')"></button>
+      <button class="card" style="background-image:url('textures/Ball.png')"></button>
+      <button class="card" style="background-image:url('textures/Book.png')"></button>
+    </div>
+  </div>
+    
+    <div id="leaderboardList">
+    </div>
+
+    <button class="small_btn button" id="options_btn" alt="Options" style="top: 30px; right: 20px; background-image:url('textures/options.png')"></button> 
+
+    <div class ="options_panel" id="options_panel">
+      <h2>Settings</h2>
+      <div class="slider" id="music">
+          <div class="slider_icon_and_name">
+            <img src="./textures/Audio.png" alt="music" class="slider-icon">
+            <p>Music</p>
+          </div>
+          <input id="music" type="range" min="0" max="100" value="50">
+      </div>
+      <div class="slider" >
+        <div class="slider_icon_and_name">
+        <img src="./textures/Audio.png" alt="music" class="slider-icon">
+        <p>SFX</p>
+        </div>
+        <input id="sfx" type="range" min="0" max="100" value="50">
+      </div>
+      <button id="option_close_button">Close</button>
+  </div>
   </body>
 </html>
