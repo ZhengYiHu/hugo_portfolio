@@ -11,7 +11,7 @@ width= 40%
 ## Zheng Yi Hu
 Hey! I'm Zy 👋
 
-A game developer passionate about developing [multiplayer games](tags/multiplayer/),participating in [game jams](post/gamejams/), and love animals. 
+I love developing [multiplayer games](tags/multiplayer/),participating in [game jams](post/gamejams/), and love animals. 
 
 I work with [**Unity**](tags/unity/), [**Godot**](tags/godot/), and [**Unreal**](tags/unreal/). 
 
